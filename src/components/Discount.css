@@ -1,0 +1,9 @@
+.title-discount {
+    display: inline;
+    font-family: 'Comfortaa', cursive;
+    border-bottom: 3px solid var(--blue);
+}
+
+.title-discount-text {
+    font-family: 'IBM Plex Mono', monospace;
+}

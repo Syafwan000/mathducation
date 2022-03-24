@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+.content-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.mathducation {
+    border-bottom: 5px solid var(--red);
+}
+
+.content-text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+}
+
+.content-button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500 !important;
+    background-color: #fff !important;
+    border-bottom: 3px solid var(--yellow) !important;
+    border-left: 3px solid var(--yellow) !important;
+}
+
+.arrow-icon {
+    font-size: 25px;
+}
+
+.menu-title {
+    font-family: 'Comfortaa', cursive;
+}
+
+.menu-close {
+    background-color: #fff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600 !important;
+    border-bottom: 3px solid var(--red) !important;
+    border-left: 3px solid var(--red) !important;
+}
+
+.menu-list {
+    font-family: 'IBM Plex Mono', monospace;
+    padding: 10px 0 10px 0;
+    border-radius: .25rem;
+}
+
+.menu-calculator {
+    background-color: var(--yellow);
+}
+
+.menu-calculator:hover {
+    background-color: var(--d-yellow);
+}
+
+.menu-discount {
+    background-color: var(--blue);
+}
+
+.menu-discount:hover {
+    background-color: var(--d-blue);
+}
+
+.menu-exponent {
+    background-color: var(--red);
+}
+
+.menu-exponent:hover {
+    background-color: var(--d-red);
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #000;
+}
+
+.menu-link:hover {
+    color: #000;
+}

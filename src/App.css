@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --red: #FE98A3;
+    --d-red: #f5818d;
+    --blue: #8BD3DD;
+    --d-blue: #73c5cf;
+    --yellow: #FAAE2B;
+    --d-yellow: #eba326;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.big-wrapper {
+    border-bottom: 2px solid #000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.big-title {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    font-family: 'Comfortaa', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.big-link {
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: 2rem;
+    color: #000;
+    text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.big-link:hover {
+    color: #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-list {
+    border-bottom: 2px solid #000;
+}
+
+.nav-item {
+    border-right: 2px solid #000;
+    padding: 15px 0 15px 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.nav-item:nth-child(1) {
+    background-color: var(--yellow);
+}
+
+.nav-item:nth-child(1):hover {
+    background-color: var(--d-yellow);
+}
+
+.nav-item:nth-child(2) {
+    background-color: var(--blue);
+}
+
+.nav-item:nth-child(2):hover {
+    background-color: var(--d-blue);
+}
+
+.nav-item:nth-child(3) {
+    background-color: var(--red);
+}
+
+.nav-item:nth-child(3):hover {
+    background-color: var(--d-red);
+}
+
+.nav-item:last-child {
+    border: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
 }
