@@ -3,3 +3,49 @@
     font-family: 'Comfortaa', cursive;
     border-bottom: 3px solid var(--red);
 }
+
+.title-exponent-text {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.exponent-wrapper {
+    width: 500px !important;
+}
+
+#basic-addon3, #basic-addon4 {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 600;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
+}
+
+.exponent-input1 {
+    width: 350px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--red);
+    border-radius: .25rem;
+    padding: 10px 16px 10px 16px;
+}
+
+.exponent-input2 {
+    width: 350px;
+    border: none;
+    outline: none;
+    border: 1px solid var(--red);
+    border-radius: .25rem;
+    padding: 10px 16px 10px 16px;
+}
+
+.exponent-info {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.exponent-result {
+    background: none;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    font-family: 'IBM Plex Mono', monospace;
+}
