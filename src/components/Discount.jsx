@@ -20,7 +20,7 @@ function Discount() {
                 <h1 className="title-discount">Discount</h1>
                 <p className="title-discount-text mt-3">Discounts are one of the most powerful marketing strategies<br /> to attract consumers to buy products or services offered by sellers.</p>
             </Container>
-            <Container className="discount-wrapper mt-3">
+            <Container className="discount-wrapper mt-3 mb-4">
                 <InputGroup className="d-flex justify-content-center">
                     <InputGroup.Text id="basic-addon1">Rp</InputGroup.Text>
                     <NumberFormat className="discount-input1" placeholder="Price" aria-label="Price" aria-describedby="basic-addon1" thousandSeparator={true} allowNegative={false} onChange={

@@ -41,6 +41,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.exponent-preview {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
 .exponent-result {
     background: none;
     border: none;
@@ -48,4 +54,10 @@
     font-size: 20px;
     color: #000;
     font-family: 'IBM Plex Mono', monospace;
+}
+
+@media (max-width: 480px) {
+    .exponent-wrapper {
+        width: 100% !important;
+    }
 }

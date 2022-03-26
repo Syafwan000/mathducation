@@ -3,3 +3,55 @@
     font-family: 'Comfortaa', cursive;
     border-bottom: 3px solid var(--yellow);
 }
+
+input[type="text"].calculator-display {
+    text-align: end;
+    outline: none;
+    width: 300px;
+    padding: 8px 15px 8px 15px;
+    border: 1px solid var(--yellow);
+    border-radius: .25rem;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+    cursor: default;
+    margin-bottom: 15px;
+}
+
+.keypad {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px !important;
+    background-color: var(--yellow) !important;
+    margin: 2px;
+    width: 70px;
+    height: 60px;
+}
+
+.keypad:hover {
+    background-color: var(--d-yellow) !important;
+}
+
+.keypad-clear {
+    background-color: var(--red) !important;
+    width: 145px;
+}
+
+.keypad-backspace {
+    background-color: var(--red) !important;
+}
+
+.keypad-clear:hover, .keypad-backspace:hover {
+    background-color: var(--d-red) !important;
+}
+
+.keypad-calculate {
+    background-color: var(--blue) !important;
+    width: 145px;
+}
+
+.keypad-operation {
+    background-color: var(--blue) !important;
+}
+
+.keypad-calculate:hover, .keypad-operation:hover {
+    background-color: var(--d-blue) !important;
+}

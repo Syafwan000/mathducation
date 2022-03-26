@@ -1,4 +1,4 @@
-import { Container, InputGroup } from 'react-bootstrap';
+import { Container, InputGroup, Row, Col } from 'react-bootstrap';
 import NumberFormat from 'react-number-format';
 import Helmet from 'react-helmet';
 import { useState } from 'react';
@@ -35,10 +35,30 @@ function Exponent() {
                     } />
                 </InputGroup>
                 <Container>
-                    <h4 className="exponent-info text-center mt-3">Result</h4>
-                    <Container className="d-flex justify-content-center">
-                        <NumberFormat className="exponent-result text-center" thousandSeparator={true} value={result} disabled />
-                    </Container>
+                    {number && exponent ?
+                        (<Row>
+                            <Col>
+                                <h4 className="exponent-info text-center mt-3">Preview</h4>
+                                <Container className="d-flex justify-content-center">
+                                    <h2 className="exponent-preview">{number}<sup>{exponent}</sup></h2>
+                                </Container>
+                            </Col>
+                        </Row>)
+                    :
+                        ""
+                    }
+                    <Row>
+                        <Col>
+                            <h4 className="exponent-info text-center mt-3">Result</h4>
+                            <Container className="d-flex justify-content-center">
+                                {number == "" || exponent == "" ? 
+                                    (<NumberFormat className="exponent-result text-center" thousandSeparator={true} value={0} disabled />)
+                                :
+                                    (<NumberFormat className="exponent-result text-center" thousandSeparator={true} value={result} disabled />)
+                                }
+                            </Container>
+                        </Col>
+                    </Row>
                 </Container>
             </Container>
         </>

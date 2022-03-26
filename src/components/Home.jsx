@@ -21,7 +21,7 @@ function Home() {
         <>
             <Container className="mt-5">
                 <Row>
-                    <Col className="py-5">
+                    <Col className="home-wrapper py-5">
                         <h1 className="content-title">
                             Calculate easier<br />with <span className="mathducation">Mathducation</span>
                         </h1>
@@ -69,7 +69,7 @@ function Home() {
                             </Modal.Footer>
                         </Modal>
                     </Col>
-                    <Col className="text-center">
+                    <Col className="image-wrapper text-center">
                         <img width="80%" src={Blogging} alt="Mathducation" />
                     </Col>
                 </Row>
